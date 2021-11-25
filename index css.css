@@ -1,0 +1,212 @@
+* {
+	box-sizing:border-box;
+}
+
+body { background-color:black;
+   font-family:Bahnschrift SemiBold;
+   margin: 0px 0px;
+}
+h1 { color: gold;
+     text-align:left;
+	 padding-left:60px;
+	 padding-top:10px;
+	font-size: 35px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	display: inline;
+	float:left;
+}
+h1 a {text-decoration:none;
+	color:gold;
+}
+h2 { color:whitesmoke;
+    text-align:center;
+	font-size: 80px;
+	margin: 10px 5px;
+	padding-top: 10px;
+	
+}
+h3 { color:whitesmoke;
+			font-size: 35px;
+			text-align: center;
+			margin-top:15px;
+			margin-bottom:15px;
+
+}
+h4 {color:whitesmoke;
+			margin-top:10px;
+			margin-bottom:0px;
+			padding-top: 10px;
+			font-size: 25px;
+			text-align: center;
+}
+img {
+	max-width:100%;
+	vertical-align: middle;
+	display: inline-block;
+}	 
+nav {  height: 80px;
+   max-width: 100%;
+   background-image: url("home8.jpg");
+   padding: 0px 0px;
+   margin:0px;
+
+}
+
+.meniu {
+	list-style-type: none;
+	display:inline-block;
+	padding: 10px 60px;
+	margin-top:10px;
+	margin-bottom:10px;
+	float:right;
+}
+.meniu li {
+	display:inline-block;
+}
+.buton {
+	background-color:none;
+	padding:10px 15px;
+}
+.buton a {
+	text-decoration:none;
+	color:whitesmoke;
+}
+.buton:hover{
+	background-color:#525252;
+}
+
+header{
+	background-image: url("audience2.jpg");
+	max-width: 100%;
+	height:auto;
+	margin-bottom:40px;
+	padding: 20px 0px;
+}
+hr {height:3px;
+   color:whitesmoke;
+    background-color: whitesmoke;
+	border-width:0px;
+	margin: 5px 300px;
+}
+
+footer{
+	background-image: url("home8.jpg");
+	padding: 10px;
+	text-align: left;
+	color: whitesmoke;
+	margin-top: 25px;
+	margin-left: 0px;
+}
+
+.programbilete {
+	padding: 15px 10px;
+	text-align: center;
+}
+.sectiunecard {
+	margin-bottom:30px;
+}
+.col-1 {
+  float: left;
+  width: 25%;
+  padding: 20px 20px;
+}
+.col-2 {
+	float: left;
+	width: 33.33%;
+	padding: 15px;
+}
+.row {
+	margin: 0x -5px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .col-1 {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .col-2 {
+	width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+} 
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding-bottom: 16px;
+  text-align: center;
+  background-color: #292929;
+  border-radius: 5px;
+}
+p {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 20px;
+  padding: 5px 10px;
+}
+.poza {
+	height:100%;
+	width:100%;
+	padding:5px 5px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  COLOR:whitesmoke;
+  font-size: 20px;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #DDD;
+}
+
+tr:hover {background-color: #D6EEEE;
+  color:black;
+}
+@media screen and (max-width: 600px) {
+  table {
+    width: 100%;
+  }
+}
+.program {
+	 margin:5px 20px;
+	 padding:5px 10px;
+  
+}
+.link {
+	text-decoration:none;
+	color:whitesmoke;
+}
+.introducere {
+	text-align: left;
+}
+.introducereh4 {
+	text-align: left;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+  }
+.contact {
+	list-style-type: none;
+}
+.distractie {
+	background-image: url("home-2-9.jpg");
+	padding:5px 5px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+}
